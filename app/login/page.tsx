@@ -42,7 +42,7 @@ export default function LoginPage() {
           <span className="text-gray-400 mr-2">+91</span>
           <input
             type="tel"
-            placeholder="10-digit mobile number"
+            placeholder="10 digit mobile number"
             value={phone}
             onChange={(e) => setPhone(e.target.value.replace(/\D/g, ""))}
             maxLength={10}
