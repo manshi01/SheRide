@@ -44,6 +44,8 @@ export default function RideStatusPage() {
           </div>
         </div>
       )}
+
+
       
     </div>
   )
