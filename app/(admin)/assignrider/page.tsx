@@ -7,6 +7,7 @@ export default function AssignRiderPage() {
   const [assigned, setAssigned] = useState(false)
 
   return (
+    <>
     <div className="min-h-screen bg-black text-white px-6 pt-6">
 
       {/* Header */}
@@ -65,5 +66,6 @@ export default function AssignRiderPage() {
         </div>
       )}
     </div>
+    </>
   )
 }
