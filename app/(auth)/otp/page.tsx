@@ -31,7 +31,7 @@ export default function OtpPage() {
     const code = otp.join("")
     if (code.length === 6) {
       // later: verify OTP with Firebase
-     router.push("/select-role")
+     router.push("/selectrole")
  // temporary redirect
     }
   }

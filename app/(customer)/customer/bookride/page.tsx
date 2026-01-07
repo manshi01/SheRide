@@ -8,7 +8,7 @@ export default function BookRidePage() {
 
   const bookRide = () => {
     // later: call backend API
-    router.push("/customer/ride-status")
+    router.push("/customer/ridestatus")
   }
 
   return (

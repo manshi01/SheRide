@@ -38,7 +38,7 @@ export default function CustomerHome() {
 
       {/* CTA */}
       <button
-        onClick={() => router.push("/customer/book-ride")}
+        onClick={() => router.push("/customer/bookride")}
         className="w-full bg-yellow-400 text-black py-3 rounded-xl font-semibold"
       >
         Book Ride
