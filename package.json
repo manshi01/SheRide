@@ -38,6 +38,7 @@
     "lib": "lib"
   },
   "repository": {
+    
     "type": "git",
     "url": "git+https://github.com/manshi01/SheRide.git"
   },

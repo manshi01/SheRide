@@ -6,6 +6,7 @@ import Image from "next/image"
 export default function AssignRiderPage() {
   const [assigned, setAssigned] = useState(false)
 
+  
   return (
     <>
     <div className="min-h-screen bg-black text-white px-6 pt-6">
