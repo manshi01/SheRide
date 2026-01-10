@@ -10,7 +10,7 @@ export default function RiderHomePage() {
     <div className="min-h-screen bg-black text-white px-6 pt-6">
 
       <div className="flex items-center mb-10">
-        <Image src="/logo.png" alt="Logo" width={36} height={36} />
+        <Image src="/logo.jpeg" alt="Logo" width={36} height={36} />
         <span className="ml-2 text-lg font-semibold">SheRide Rider</span>
       </div>
 

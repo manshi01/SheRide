@@ -20,7 +20,7 @@ export default function LoginPage() {
       {/* Logo */}
       <div className="flex items-center mb-16">
         <Image
-          src="/logo.jpeg"   // put logo inside public/logo.png
+          src="/logo.jpeg"   // put logo inside public/logo.jpeg
           alt="Logo"
           width={70}
           height={70}

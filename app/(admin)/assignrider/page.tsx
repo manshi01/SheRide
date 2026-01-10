@@ -6,14 +6,14 @@ import Image from "next/image"
 export default function AssignRiderPage() {
   const [assigned, setAssigned] = useState(false)
 
-  
+
   return (
     <>
     <div className="min-h-screen bg-black text-white px-6 pt-6">
 
       {/* Header */}
       <div className="flex items-center mb-10">
-        <Image src="/logo.png" alt="Logo" width={36} height={36} />
+        <Image src="/logo.jpeg" alt="Logo" width={36} height={36} />
         <span className="ml-2 text-lg font-semibold">SheRide Admin</span>
       </div>
 

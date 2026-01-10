@@ -12,7 +12,7 @@ export default function CustomerHome() {
       {/* Header */}
       <div className="flex justify-between items-center mb-10">
         <div className="flex items-center">
-          <Image src="/logo.png" alt="Logo" width={36} height={36} />
+          <Image src="/logo.jpeg" alt="Logo" width={36} height={36} />
           <span className="ml-2 text-lg font-semibold">SheRide</span>
         </div>
         <span className="text-sm text-gray-400">Bengaluru</span>

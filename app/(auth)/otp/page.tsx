@@ -42,7 +42,7 @@ export default function OtpPage() {
       {/* Logo */}
       <div className="flex items-center mb-16">
         <Image
-          src="/logo.png"
+          src="/logo.jpeg"
           alt="Logo"
           width={40}
           height={40}

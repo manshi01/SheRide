@@ -16,7 +16,7 @@ export default function BookRidePage() {
 
       {/* Header */}
       <div className="flex items-center mb-10">
-        <Image src="/logo.png" alt="Logo" width={36} height={36} />
+        <Image src="/logo.jpeg" alt="Logo" width={36} height={36} />
         <span className="ml-2 text-lg font-semibold">SheRide</span>
       </div>
 
