@@ -11,6 +11,7 @@ export default function BookRidePage() {
     router.push("/customer/ridestatus")
   }
 
+  
   return (
     <div className="min-h-screen bg-black text-white px-6 pt-6">
 

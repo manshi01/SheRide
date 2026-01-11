@@ -18,6 +18,7 @@ export default function RiderHomePage() {
         You are {online ? "Online" : "Offline"}
       </h1>
 
+
       <button
         onClick={() => setOnline(!online)}
         className={`w-full py-3 rounded-xl font-semibold
