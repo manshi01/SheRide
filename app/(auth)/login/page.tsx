@@ -13,6 +13,24 @@ export default function LoginPage() {
       router.push("/otp") // next screen
     }
   }
+const sendOtp = async () => {
+  const res = await fetch(
+    `${process.env.NEXT_PUBLIC_API_URL}/login`,
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ phone })
+    }
+  )
+
+  const data = await res.json()
+
+  if (res.ok) {
+    router.push("/otp")
+  }
+}
 
   return (
     <div className="min-h-screen bg-black text-white px-6 pt-6">
