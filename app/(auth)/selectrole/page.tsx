@@ -6,16 +6,28 @@ import Image from "next/image"
 export default function SelectRolePage() {
   const router = useRouter()
 
-  const selectRole = (role: "customer" | "rider") => {
-    // temporary storage (later backend + JWT)
-    localStorage.setItem("role", role)
-
-    if (role === "customer") {
-      router.push("/customer/home")
-    } else {
-      router.push("/rider/home")
+const selectRole = async (role: "customer" | "rider") => {
+  await fetch(
+    `${process.env.NEXT_PUBLIC_API_URL}/select-role`,
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        phone: "9999999999",
+        role
+      })
     }
+  )
+
+  if (role === "customer") {
+    router.push("/customer/home")
+  } else {
+    router.push("/rider/home")
   }
+}
+
 
   return (
     <div className="min-h-screen bg-black text-white px-6 pt-6">

@@ -70,7 +70,7 @@ const sendOtp = async () => {
 
         {/* Next Button */}
         <button
-          onClick={handleNext}
+          onClick={sendOtp}
           disabled={phone.length !== 10}
           className={`w-full py-3 rounded-xl font-semibold transition
             ${

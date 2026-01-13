@@ -3,6 +3,26 @@
 import { useState, useRef } from "react"
 import { useRouter } from "next/navigation"
 import Image from "next/image"
+const handleVerify = async () => {
+  const res = await fetch(
+    `${process.env.NEXT_PUBLIC_API_URL}/verify-otp`,
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ otp: otp.join("") })
+    }
+  )
+
+  const data = await res.json()
+
+  if (res.ok) {
+    router.push("/select-role")
+  } else {
+    alert("Invalid OTP")
+  }
+}
 
 export default function OtpPage() {
   const router = useRouter()
