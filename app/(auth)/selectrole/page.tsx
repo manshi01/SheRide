@@ -32,6 +32,7 @@ const selectRole = async (role: "customer" | "rider") => {
 
 
 
+
   return (
     <div className="min-h-screen bg-black text-white px-6 pt-6">
 
