@@ -20,6 +20,7 @@ const selectRole = async (role: "customer" | "rider") => {
       })
     }
   )
+  
 
   if (role === "customer") {
     router.push("/customer/home")
