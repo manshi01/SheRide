@@ -56,6 +56,7 @@ const sendOtp = async () => {
           We’ll send you an OTP to verify
         </p>
 
+
         {/* Phone Input */}
         <div className="flex items-center bg-zinc-900 rounded-xl px-4 py-3 mb-6">
           <span className="text-gray-400 mr-2">+91</span>
