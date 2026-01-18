@@ -70,6 +70,8 @@ const sendOtp = async () => {
           />
         </div>
 
+
+
         {/* Next Button */}
         <button
           onClick={sendOtp}
