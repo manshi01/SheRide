@@ -69,6 +69,8 @@ const sendOtp = async () => {
             className="bg-transparent outline-none text-white w-full"
           />
         </div>
+
+        
         {/* Next Button */}
         <button
           onClick={sendOtp}
